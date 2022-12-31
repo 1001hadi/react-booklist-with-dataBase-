@@ -1,0 +1,12 @@
+{
+  "books": [
+    {
+      "title": "new book",
+      "id": 4
+    },
+    {
+      "title": "the one i like",
+      "id": 6
+    }
+  ]
+}

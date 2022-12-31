@@ -1,0 +1,29 @@
+#call All
+GET http://localhost:3001/Books HTTP/1.1
+Content-Type: application/json
+
+###
+#Create
+
+POST  http://localhost:3001/Books HTTP/1.1
+Content-Type: application/json
+
+{
+    "title": "Harry Potter"
+}
+
+###
+#Edit
+
+Put http://localhost:3001/Books/1 HTTP/1.1
+Content-Type: application/json
+
+{
+    "title": "Harry Potter3"
+}
+
+###
+#Delete
+
+DELETE http://localhost:3001/Books/1 HTTP/1.1
+Content-Type: application/json
